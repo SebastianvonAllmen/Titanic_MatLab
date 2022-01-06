@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.10.5)  6 JAN 2022 15:12
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.10.5)  6 JAN 2022 18:08
  restricted system commands enabled.
 **report-titanic.tex
 (./report-titanic.tex
@@ -1560,14 +1560,14 @@ LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
 (Font)              scaled to size 5.0pt on input line 156.
 [2<./pics/process.jpeg>] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 176.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 186.
 (./report-titanic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `report-titanic.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -1584,7 +1584,7 @@ df_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
  85i,20n,111p,10173b,1137s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/user/texmf/fonts/opentype/nunito/Nunito-Light.otf></home/user/texmf/fonts
 /opentype/nunito/Nunito-Regular.otf>
-Output written on report-titanic.pdf (3 pages, 297822 bytes).
+Output written on report-titanic.pdf (3 pages, 298376 bytes).
 
 PDF statistics: 76 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
