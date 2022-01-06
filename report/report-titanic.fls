@@ -284,6 +284,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /home/user/texmf/tex/latex/bfh-ci_1.5.2/tex/latex/bfh-ci/bfhterminal.sty
 INPUT /home/user/texmf/tex/latex/bfh-ci_1.5.2/tex/latex/bfh-ci/bfhterminal.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
@@ -401,10 +403,6 @@ INPUT ./pics/process.jpeg
 INPUT ./pics/process.jpeg
 INPUT ./pics/process.jpeg
 INPUT /home/user/.texlive2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm

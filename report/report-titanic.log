@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.10.5)  6 JAN 2022 12:38
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.10.5)  6 JAN 2022 14:47
  restricted system commands enabled.
 **report-titanic.tex
 (./report-titanic.tex
@@ -1139,7 +1139,9 @@ File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
-(/home/user/texmf/tex/latex/bfh-ci_1.5.2/tex/latex/bfh-ci/bfhterminal.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+) (/home/user/texmf/tex/latex/bfh-ci_1.5.2/tex/latex/bfh-ci/bfhterminal.sty
 Package: bfhterminal 2021/02/03 -- v1.0.0 BFH decorator package (terminal)
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2019/11/15 version 4.22 text color boxes
@@ -1517,25 +1519,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 <./pics/overview.jpg, id=11, 325.215pt x 158.2713pt>
 File: ./pics/overview.jpg Graphic file (type jpg)
 <use ./pics/overview.jpg>
-Package luatex.def Info: ./pics/overview.jpg  used on input line 127.
-(luatex.def)             Requested size: 199.16928pt x 96.93175pt.
+Package luatex.def Info: ./pics/overview.jpg  used on input line 126.
+(luatex.def)             Requested size: 227.62204pt x 110.77948pt.
 <./pics/process.jpeg, id=12, 1533.73pt x 706.64pt>
 File: ./pics/process.jpeg Graphic file (type jpg)
 <use ./pics/process.jpeg>
 Package luatex.def Info: ./pics/process.jpeg  used on input line 129.
 (luatex.def)             Requested size: 199.16928pt x 91.75859pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--130
+Underfull \hbox (badness 10000) in paragraph at lines 125--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--130
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--130
+Underfull \hbox (badness 10000) in paragraph at lines 125--130
 
  []
 
@@ -1557,45 +1554,40 @@ warning  (pdfe): invalid compressed object number 9 at position 3
 
 warning  (pdfe): invalid objects stream 12 0 R at offset 1432
 ></home/user/texmf/tex/latex/bfh-logo_1.4.0/tex/latex/bfh-logo/BFH-logotext_sing
-le-en_neg_4CU.pdf>] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.
-sty
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-)
+le-en_neg_4CU.pdf>]
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 167.
+(Font)              scaled to size 9.0pt on input line 156.
 LaTeX Font Info:    Font shape `TU/SourceSerifPro(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 167.
-[2<./pics/process.jpeg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 167.
+(Font)              scaled to size 5.0pt on input line 156.
+[2<./pics/process.jpeg>] [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 174.
 (./report-titanic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
 Package rerunfilecheck Info: File `report-titanic.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38274 strings out of 481365
- 156270,1648299 words of node,token memory allocated
- 2771 words of node memory still in use:
-   51 hlist, 5 vlist, 5 rule, 12 disc, 5 local_par, 2 math, 54 glue, 29 kern, 7 
-penalty, 126 glyph, 44 attribute, 63 glue_spec, 44 attribute_list, 2 write, 12 p
+ 38751 strings out of 481365
+ 100000,1373583 words of node,token memory allocated
+ 2758 words of node memory still in use:
+   50 hlist, 5 vlist, 5 rule, 12 disc, 5 local_par, 2 math, 54 glue, 29 kern, 7 
+penalty, 126 glyph, 43 attribute, 63 glue_spec, 43 attribute_list, 2 write, 12 p
 df_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:2,2:1663,3:260,4:2766,5:2985,6:46,7:6694,8:45,9:7678,10:32,11:
-504
- 53821 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:1184,3:100,4:140,5:1225,6:40,7:2912,8:12,9:1787,10:42,11:1
+59
+ 54306 multiletter control sequences out of 65536+600000
  100 fonts using 13068563 bytes
- 85i,20n,111p,10173b,841s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 85i,20n,111p,10173b,1137s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/user/texmf/fonts/opentype/nunito/Nunito-Light.otf></home/user/texmf/fonts
 /opentype/nunito/Nunito-Regular.otf>
-Output written on report-titanic.pdf (2 pages, 296210 bytes).
+Output written on report-titanic.pdf (3 pages, 297553 bytes).
 
-PDF statistics: 69 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 131072)
+PDF statistics: 76 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

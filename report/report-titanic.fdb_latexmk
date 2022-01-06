@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1641469085 "report-titanic.tex" "report-titanic.pdf" "report-titanic" 1641469087
+["lualatex"] 1641476839 "report-titanic.tex" "report-titanic.pdf" "report-titanic" 1641476841
   "/home/user/.texlive2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1633417908 4507956 063c4f75efae0067363fe2289596d449 ""
   "/home/user/.texlive2019/texmf-var/luatex-cache/generic-dev/fonts/otl/fontawesome.luc" 1633422687 61117 e5a89fe0915207b779fa55c94271cb81 ""
   "/home/user/.texlive2019/texmf-var/luatex-cache/generic-dev/fonts/otl/lmroman10-bold.luc" 1633422620 124213 be24eb5b757919758e60aa4f6d6aeb1d ""
@@ -248,11 +248,11 @@
   "pics/data.PNG" 1641467882 8819 64c013585d30b59439f95b392cf9f953 ""
   "pics/overview.jpg" 1641466648 130276 a4d525136eae11213acfa1389b5abfd5 ""
   "pics/process.jpeg" 1641468338 126892 fd01b2230a60abcdf5c48e787087bf19 ""
-  "report-titanic.aux" 1641469087 820 39538988a5c1568de636e075cdac81a5 "lualatex"
-  "report-titanic.out" 1641469086 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
-  "report-titanic.tex" 1641469082 7118 120c613ca781ced35d56a0f615cde210 ""
+  "report-titanic.aux" 1641476841 820 2ad69226244d1dbac797fcb13abe48b6 "lualatex"
+  "report-titanic.out" 1641476841 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "report-titanic.tex" 1641476825 8212 6aa67bd0b469b35cbdff75ba7bb06d15 ""
   (generated)
   "report-titanic.out"
-  "report-titanic.log"
   "report-titanic.pdf"
+  "report-titanic.log"
   "report-titanic.aux"
