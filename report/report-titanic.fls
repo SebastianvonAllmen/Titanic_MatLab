@@ -387,10 +387,10 @@ INPUT ./pics/data.png
 INPUT ./pics/overview.jpg
 INPUT ./pics/overview.jpg
 INPUT ./pics/overview.jpg
-INPUT ./pics/process.jpeg
-INPUT ./pics/process.jpeg
-INPUT ./pics/process.jpeg
 INPUT /home/user/.texlive2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./pics/process.jpeg
+INPUT ./pics/process.jpeg
+INPUT ./pics/process.jpeg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
@@ -403,4 +403,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr5.tfm
+INPUT ./pics/oob_error_plot_size40.png
+INPUT ./pics/oob_error_plot_size40.png
+INPUT ./pics/oob_error_plot_size40.png
+INPUT ./pics/feature_importance_plot_size40.png
+INPUT ./pics/feature_importance_plot_size40.png
+INPUT ./pics/feature_importance_plot_size40.png
 INPUT ./report-titanic.aux

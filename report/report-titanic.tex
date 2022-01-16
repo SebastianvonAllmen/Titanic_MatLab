@@ -122,11 +122,16 @@ To do this we used a online Machine Learning Competition. \href{https://www.kagg
 You use this data to train your Model. After developing your Model the true test comes. You run it using the test.csv file. This contains the same information but not whether or not the Passenger survived. To guess this you use your Model. How accurate this guess is, shows how good your model was developed}
 
 \section*{Introduction}
-You can group the Machine Learning the following way. 
-\includegraphics[width=80mm\\]{overview}
-\newline
+You can group the Machine Learning the following way.
+\begin{center}
+	\includegraphics[width=100mm]{overview}
+\end{center}
+
 We will focus on the Classification of Supervised Learning. This means the output comes out to be in one class. I.e. Survived or did not Survive. It could also be Apple, Banana or Orange. A Regression problem would f.e. be how much taxes you have to pay. I.e. 698.5 chf or 1045.7 chf. To do Supervised Machine Learning in Matlab we used the Classification Learner. Before diving in to that, we want to explain how the general Process of Machine Learning works. This graphic show the process.
-\includegraphics[width=70mm\\]{process}
+\begin{center}
+	\includegraphics[width=100mm]{process}
+\end{center}
+
 \subsection*{Get Data}
 First you have to get your data. This will most of the time be the easy part. In our case we just have to read in the data from the .csv File.
 %%Villech gits da öppis Matlab spezifisches has bis iz ni gfunde
@@ -167,21 +172,47 @@ I tried to improve the performance of the Model by including some clever feature
 Boosted trees are often prone to overfitting. This means, that an individual decision tree takes decisions witch work very good for the test data but sadly loose accuracy on the general problem.
 To combat this effect we can use an Random Forest Classifier. A random forest  combines multiple deep decision trees into a forest which produces a result with a much lower variance.
 
-For implementing this model in Matlab we can use the TreeBagger class from the Classification Learner toolbox
+For implementing this model in Matlab we can use the TreeBagger class from the Classification Learner toolbox.
+
+For each person with an missing age value I decided to put in the median age of all other passengers. This will likely worsen the accuracy on children with missing age data but will be enough for the moment. The ages then were categorized into six groups.
+
+The values for siblings and spouses "sisps" and parent and child "parch" were put together into an single variable family. \newline
+
+The variables: class, sex, categorized age, family, fare and survived were put together into a table with wich the classification learner was trained.
+First I plotted the Out-of-Bag Classification Error as a function of number of Grown trees in the random forest. Out of this visualisation i could read out the optimal forest size for our model. I choose the first minimal bevor the graph began to plateau.
+\begin{center}
+	\includegraphics[width=100mm]{oob_error_plot_size40}
+\end{center}
+Furthermore you can also show the importace of each category. You can use the "OOBPermutedDeltaError property for this. I find it a bit confusing that the age does not play a bigger role in this model.
+\begin{center}
+	\includegraphics[width=100mm]{feature_importance_plot_size40}
+\end{center}
+The final steps where now to train a random forest model with the optimal size and evaluate the test data with it to commit the result onto the kaggle website for evaluation.
+
+To train the model I used the Tree Bagger function from the classification learner toolbox. This would look a bit like this:
+\begin{lstlisting}[language=Matlab]
+b_optimal = TreeBagger(optimal_forest_size,tbl(:,1:5),tbl(:,6),'OOBPredictorImportance','off','OOBPrediction','on');
+\end{lstlisting}
+
 
 \section*{Results}
-In the end we developed two individuell Models that worked better than primitive guesses. We are really happy with that. A primitive guess would be to say every woman survived and every man died.
+In the end we developed two individuell models that worked better than primitive guesses. We are really happy with that. A primitive guess would be to say every woman survived and every man died.
 
 \begin{center}
 	\begin{tabular}{ c c }
 		Method & Acuraccy in [\%] \\
-		primitve & cell2 \\ 
+		primitve & 74.2 \\ 
 		sebasmodel & 77.2 \\
-		tillmodel & cell8    
+		tillmodel & 78,2    
 	\end{tabular}
 \end{center}
+We think that Till's model was marginally better becuase he used the random forest function instead of the single decision tree function for his model. But the difference is so small becuase he had a better data preparation with his age average for sex and class.
 
 \section*{Discussion}
+The prediction of survival for each passenger of the Titanic was a very interesting project to learn the basics of data science and machine learning. It also provided a good framework to test the Classification Learner Toolbox in MatLab and use it on our own. Our Struggle was eased with an good online tutorial for our use case. We think without this tutorial it would have been virtually impossible to complete this task in a justifiable timeframe.
+
+Our models could furthermore be optimized by combining them into a single model with also the data preparation combined.
+But in the end we think we can be proud of our achievements.
 
 
 
