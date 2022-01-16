@@ -115,32 +115,32 @@
 
 \section*{Abstract}
 %\includegraphics[width=6cm]{flower}
-\textbf{In this Documentation we will give you a brief overview of how Machine Learning works and how you can use it in Matlab. More specifically we will talk about the classification learner in Matlab. This will give you a powerfull tool for Data analysis and you can use the gained knowledge with the Regression Learner.\newline
-To do this we used a online Machine Learning Competition. \href{https://www.kaggle.com/c/titanic}{Kaggle-Titanic}. It is a very popular Competition for people who are trying to get into Data Science. Therefore there are a lot of online guides for it. We combined the knowledge we gained from them for this report. The goal of the competition is to guess who survived the sinking of the Titanic and who did not. To help you guess you get a train.csv file with information about the people on board. 
+\textbf{In this documentation we will give you a brief overview of how Machine Learning works and how you can use it in Matlab. More specifically we will talk about the classification learner in Matlab. This will give you a powerfull tool for data analysis and you can use the gained knowledge with the Regression Learner.\newline
+To do this we used a online Machine Learning competition. \href{https://www.kaggle.com/c/titanic}{Kaggle-Titanic}. It is a very popular competition for people who are trying to get into data science. Therefore there are a lot of online guides for it. We combined the knowledge we gained from them for this report. The goal of the competition is to guess who survived the sinking of the Titanic and who did not. To help you guess you get a train.csv file with information about the people on board. 
 \includegraphics[width=155mm\\]{data} 
 \newline
-You use this data to train your Model. After developing your Model the true test comes. You run it using the test.csv file. This contains the same information but not whether or not the Passenger survived. To guess this you use your Model. How accurate this guess is, shows how good your model was developed}
+You use this data to train your model. After developing your model the true test comes. You run it using the test.csv file. This contains the same information but not whether or not the Passenger survived. To guess this you use your model. How accurate this guess is, shows how good your model was developed}
 
 \section*{Introduction}
-You can group the Machine Learning the following way.
+You can group the Machine Learning the following ways.
 \begin{center}
 	\includegraphics[width=100mm]{overview}
 \end{center}
 
-We will focus on the Classification of Supervised Learning. This means the output comes out to be in one class. I.e. Survived or did not Survive. It could also be Apple, Banana or Orange. A Regression problem would f.e. be how much taxes you have to pay. I.e. 698.5 chf or 1045.7 chf. To do Supervised Machine Learning in Matlab we used the Classification Learner. Before diving in to that, we want to explain how the general Process of Machine Learning works. This graphic show the process.
+We will focus on the classification of Supervised Learning. This means the output comes out to be in one class. I.e. survived or did not survive. It could also be Apple, Banana or Orange. A regression problem would f.e. be how much taxes you have to pay. I.e. 698.5 chf or 1045.7 chf. To do Supervised Machine Learning in Matlab we used the Classification Learner. Before diving in to that, we want to explain how the general Process of Machine Learning works. This graphic show the process.
 \begin{center}
 	\includegraphics[width=100mm]{process}
 \end{center}
 
 \subsection*{Get Data}
-First you have to get your data. This will most of the time be the easy part. In our case we just have to read in the data from the .csv File.
+First you have to get your data. This will most of the time be the easy part. In our case we just have to read in the data from the provided .csv File.
 %%Villech gits da öppis Matlab spezifisches has bis iz ni gfunde
 \begin{lstlisting}[language=Matlab]
 Test = readtable('test.csv','Format','%f%f%q%C%f%f%f%q%f%q%C');
 \end{lstlisting}
 
 \subsection*{Clean Data}
-It is highly likely that you will have some blank spots in your data. To fill them is your responsibility. You will also likely have some Data that is non relevant to solving your Problem. To remove them is also your job. In code this would look something like this.
+It is highly likely that you will have some blank spots in your data. To fill them is your responsibility. You will also likely have some data that is non relevant to solving your Problem. To remove them is also your job. In code this would look something like this.
 
 \begin{lstlisting}[language=Matlab]
 avgAge = nanmean(Train.Age)          

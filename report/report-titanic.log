@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.6.15)  16 JAN 2022 16:26
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.6.15)  16 JAN 2022 16:33
  restricted system commands enabled.
 **report-titanic.tex
 (./report-titanic.tex
@@ -1429,14 +1429,14 @@ Here is how much of LuaTeX's memory you used:
    50 hlist, 5 vlist, 5 rule, 12 disc, 5 local_par, 2 math, 54 glue, 19 kern, 7 
 penalty, 127 glyph, 43 attribute, 63 glue_spec, 43 attribute_list, 2 write, 12 p
 df_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:1,2:1187,3:101,4:142,5:1096,6:42,7:3380,8:12,9:1791,10:42,11:1
-92
+   avail lists: 1:1,2:1187,3:101,4:142,5:1097,6:42,7:3390,8:12,9:1791,10:42,11:1
+93
  54223 multiletter control sequences out of 65536+600000
  94 fonts using 12462755 bytes
  85i,20n,102p,10173b,1137s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/user/texmf/fonts/opentype/Unit/UnitRoundedPro-Light.otf></home/user/texmf
 /fonts/opentype/Unit/UnitRoundedPro.otf>
-Output written on report-titanic.pdf (5 pages, 375837 bytes).
+Output written on report-titanic.pdf (5 pages, 375865 bytes).
 
 PDF statistics: 88 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
