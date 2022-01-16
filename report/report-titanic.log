@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.6.15)  16 JAN 2022 16:33
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.6.15)  16 JAN 2022 17:01
  restricted system commands enabled.
 **report-titanic.tex
 (./report-titanic.tex
@@ -1412,14 +1412,14 @@ Package luatex.def Info: ./pics/feature_importance_plot_size40.png  used on inpu
 t line 188.
 (luatex.def)             Requested size: 284.52756pt x 239.7217pt.
 [4<./pics/oob_error_plot_size40.png><./pics/feature_importance_plot_size40.png>] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 222.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 223.
 (./report-titanic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `report-titanic.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -1436,10 +1436,10 @@ df_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
  85i,20n,102p,10173b,1137s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/user/texmf/fonts/opentype/Unit/UnitRoundedPro-Light.otf></home/user/texmf
 /fonts/opentype/Unit/UnitRoundedPro.otf>
-Output written on report-titanic.pdf (5 pages, 375865 bytes).
+Output written on report-titanic.pdf (5 pages, 376009 bytes).
 
-PDF statistics: 88 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+PDF statistics: 90 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  27 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
