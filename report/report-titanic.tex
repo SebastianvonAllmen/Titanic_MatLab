@@ -160,10 +160,18 @@ This will teach you the basics and you will be able to develop your own models a
 \subsection*{Classification Learner}
 
 \subsection*{Sebasmodell}
-In my Model i decided to use the boosted Tree Algorithm. It works like......
+In my Model i decided to use the boosted Tree Algorithm. The boosted Tree Algorithm is basically just a lot of decision Trees combined. The Algorithm combines a lot of weak learners in series to create a strong learner model. It works differently than a random Forest Model.
 I tried to improve the performance of the Model by including some clever feature Datatypes and by improving how i filled out blank spaces.
 
+
 \subsection*{Tillsmodel}
+
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        You will find information about how to run the code you can look in to the README
+    }%
+}
+
 
 \section*{Results}
 In the end we developed two individuell Models that worked better than primitive guesses. We are really happy with that. The primitive guess would be to say every woman survived and every man died.
@@ -172,7 +180,7 @@ In the end we developed two individuell Models that worked better than primitive
 	\begin{tabular}{ c c }
 		Method & Acuraccy in [\%] \\
 		primitve & cell2 \\ 
-		sebasmodel & 77.2 \\
+		sebasmodel & 77.9 \\
 		tillmodel & cell8    
 	\end{tabular}
 \end{center}
