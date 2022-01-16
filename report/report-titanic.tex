@@ -152,7 +152,7 @@ Test.Age(isnan(Test.Age)) = avgAge;
 We train the Model using the Classification Learner from the Matlab Toolbox. You can read more about it in its own section. 
  
 \subsection*{Test Data}
-To test the Data we have two options. We can test run it against the training data. This will give us a good estimate of how good the model performs. It should be pretty good since it is the same data we used to train the model. One problem with testing out models like this is overfitting. Our model could theoretically reach 100\% accuracy agains our training data if it remembers for each passenger if he survived or not. The problem is that such a model would perform very badly oustside its trainign enviorement. if If we want to do a real test, we should run it against the test data. We do not know the outcome for this data. To check how good we were we can upload this data to Kaggle. It will tell us our success rate. 
+To test the Data we have two options. We can test run it against the training data. This will give us a good estimate of how good the model performs. It should be pretty good since it is the same data we used to train the model. One problem with testing out models like this is overfitting. Our model could theoretically reach 100\% accuracy agains our training data if it remembers for each passenger if he survived or not. The problem is that such a model would perform very badly oustside its training enviorement. If we want to do a real test, we should run it against the test data. We do not know the outcome for this data. To check how good we were we can upload this data to Kaggle. It will tell us our success rate. 
 
 \subsection*{Improve}
 Now we get to the interesting part. To improve our model we have two options. The first option is we find a better model and train it more. The other option is to clean, prepare and manipulate the input data in a smarter way, by including intelligent features and removing unimportant Data.
@@ -163,10 +163,11 @@ To create your own Machine Learning Model you first have to learn the basics. We
 This will teach you the basics and you will be able to develop your own models after completing it.
 
 \subsection*{Classification Learner}
+The classification Learner Toolbox is a App from Matlab itself. You can run several diffrent Models on it in a easy way.
 
 \subsection*{Sebasmodell}
-In my Model I decided to use the boosted Tree Algorithm. It works like......
-I tried to improve the performance of the Model by including some clever feature Datatypes and by improving how I filled out blank spaces.
+In my Model I decided to use the boosted Tree Algorithm. It works like a decision Tree, only that there are a lot of them. To get the result each decision Tree only works with a couple parameters. The Decsion Trees are also weightet diffrently.
+I tried to improve the performance of the Model by including some clever feature Datatypes and by improving how I filled out blank spaces. I calculatet the average Age for each Gender and Class and used that to fill in the blank spaces in the age category.
 
 \subsection*{Tillsmodel}
 Boosted trees are often prone to overfitting. This means, that an individual decision tree takes decisions witch work very good for the test data but sadly loose accuracy on the general problem.
@@ -206,7 +207,7 @@ In the end we developed two individuell models that worked better than primitive
 		tillmodel & 78,2    
 	\end{tabular}
 \end{center}
-We think that Till's model was marginally better becuase he used the random forest function instead of the single decision tree function for his model. But the difference is so small becuase he had a better data preparation with his age average for sex and class.
+We think that Till's model was marginally better becuase he used the random forest function instead of the single decision tree function for his model. But the difference is so small becuase Sebas Model had a better data preparation with age average for sex and class and the other feature Data types.
 
 \section*{Discussion}
 The prediction of survival for each passenger of the Titanic was a very interesting project to learn the basics of data science and machine learning. It also provided a good framework to test the Classification Learner Toolbox in MatLab and use it on our own. Our Struggle was eased with an good online tutorial for our use case. We think without this tutorial it would have been virtually impossible to complete this task in a justifiable timeframe.
